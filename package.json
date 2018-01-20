@@ -1,0 +1,21 @@
+{
+  "name": "tipxrp",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Tip XRP <tipple@monaco-rx.org>",
+  "description": "Tip your XRP to your favorite Twitter accounts.",
+  "dependencies": {
+    "cron": "^1.2.1",
+    "hubot": "^2.19.0",
+    "hubot-diagnostics": "0.0.2",
+    "hubot-rules": "^0.1.2",
+    "hubot-scripts": "^2.17.2",
+    "hubot-twitter-userstream-monacoex": "0.0.3",
+    "@monaco-ex/pg-promise": "6.5.2-6",
+    "ripple-lib": "^0.17.7",
+    "twit-promise": "^2.1.0"
+  },
+  "engines": {
+    "node": "7.x"
+  }
+}
